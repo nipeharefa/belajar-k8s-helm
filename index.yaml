@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  pod-only:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-07T07:42:44.668287021Z"
+    description: A Helm chart for Kubernetes
+    digest: fd1cc8b1d655773474588ad19283ea1b947ec852386d6f4ce3c87266886470b3
+    name: pod-only
+    type: application
+    urls:
+    - https://github.com/nipeharefa/belajar-k8s-helm/releases/download/pod-only-0.1.1/pod-only-0.1.1.tgz
+    version: 0.1.1
+generated: "2021-11-07T07:42:44.668293222Z"
