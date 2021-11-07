@@ -4,11 +4,12 @@
 
 replicaCount: 1
 
+containerPort: 9898
 image:
-  repository: nginx
+  repository: stefanprodan/podinfo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
